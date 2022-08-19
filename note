@@ -1,0 +1,8 @@
+Please follow these instructions before create wordpress deployment-
+
+1. kubectl exec -it pod_name -- bash
+2. mysql -u root -p
+3. use admin as password
+4. CREATE DATABASE wordpress;
+5. show databases;
+6. then run command - "kubectl apply -f wordpress.yaml"
